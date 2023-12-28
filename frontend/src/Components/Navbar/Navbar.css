@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Pokemon Classic';
+  src: url(/Users/jackiejr/Desktop/Web Design/react-ecommerce/frontend/src/Fonts/Pokemon Classic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Pokemon Classic';
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
