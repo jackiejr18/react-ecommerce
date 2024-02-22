@@ -48,3 +48,43 @@
     font-size: 12px;
   }
 }
+
+@media(max-width:1024px) {
+  .item {
+    width: 170px;
+    font-size: 12px;
+  }
+
+  .item img {
+    width: 170px;
+  }
+
+  .item-price-old {
+    font-size: 12px;
+  }
+}
+
+@media(max-width:800px) {
+  .item {
+    width: 120px;
+    font-size: 11px;
+  }
+
+  .item img {
+    width: 120px;
+  }
+
+  .item-price-old {
+    font-size: 11px;
+  }
+}
+
+@media(max-width:500px) {
+  .item {
+    width: 160px;
+  }
+
+  .item img {
+    width: 160px;
+  }
+}
