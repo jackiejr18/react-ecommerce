@@ -56,3 +56,33 @@
   align-items: center;
   justify-content: center;
 }
+
+@media(max-width:1280px) {
+  .hero-left {
+    padding-left: 100px;
+  }
+
+  .hero-left h2 {
+    font-size: 17px;
+  }
+
+  .hero-left p {
+    font-size: 50px;
+  }
+
+  .hero-hand-icon img {
+    width: 80px;
+  }
+
+  .hero-latest-btn {
+    gap: 10px;
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .hero-right img {
+    width: 500px;
+  }
+}
