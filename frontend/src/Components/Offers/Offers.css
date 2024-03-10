@@ -48,3 +48,32 @@
   justify-content: flex-end;
   padding-top: 50px;
 }
+
+@media(max-width:1280px) {
+  .offers {
+    padding: 0px 80px;
+    margin-bottom: 120px;
+  }
+
+  .offers-left h1 {
+    font-size: 32px;
+  }
+
+  .offers-left p {
+    font-size: 12px;
+  }
+
+  .offers-right img {
+    width: 300px;
+  }
+
+  .offers-left button {
+    width: 220px;
+    height: 50px;
+    font-size: 12px;
+  }
+
+  .offers-right {
+    padding-top: 30px;
+  }
+}
