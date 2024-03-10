@@ -77,3 +77,33 @@
     padding-top: 30px;
   }
 }
+
+@media(max-width:1024px) {
+  .offers {
+    padding: 0px 60px;
+    margin-bottom: 80px;
+    height: 40vh;
+  }
+
+  .offers-left h1 {
+    font-size: 20px;
+  }
+
+  .offers-left p {
+    font-size: 10px;
+  }
+
+  .offers-right img {
+    width: 200px;
+  }
+
+  .offers-left button {
+    width: 160px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  .offers-right {
+    padding-top: 10px;
+  }
+}
